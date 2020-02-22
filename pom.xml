@@ -8,7 +8,7 @@
   <parent>
    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
    <!-- add by Ambuj-->
-    <!-- add by Ambujjjjjjjjjjjjjjjj-->
+    <!-- add by Ambuj ojha-->
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>2.0.0.RELEASE</version>

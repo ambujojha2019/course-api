@@ -9,7 +9,7 @@ public class HelloController {
 	
 	@RequestMapping("/hello")
 	public String sayHi() {
-		
+		System.out.println("Hi");
 		return "Hi";
 	}
 

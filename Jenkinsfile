@@ -1,4 +1,6 @@
 node{
+    PATH = "C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\bin"
+    
     stage('Checkout SCM'){
         git 'https://github.com/ambujojha2019/course-api'
     }

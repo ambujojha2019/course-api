@@ -3,6 +3,8 @@ node{
         git 'https://github.com/ambujojha2019/course-api'
     }
     stage('Compile -Packges'){
-       sh 'mvn package'
+        
+       def mvnHome= tool name: 'maven', type: 'maven'
+        sh "${mvnHome}/bin/mvn package"
     }
 }
